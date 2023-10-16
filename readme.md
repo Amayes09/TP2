@@ -1,2 +1,11 @@
+# VSC-TP1_NomEt2
 # Bienvenue
-Programme Java qui affiche le nom de l’étudiant en utilisant la classe SimpleTesting ()`.
+class Student{
+String name;
+Student(String name){
+this.name = name;
+}
+public String getName() {
+return this.name;
+}
+}
